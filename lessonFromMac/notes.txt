@@ -1,0 +1,7 @@
+https://docs.python-guide.org/dev/virtualenvs/
+
+# mestinya tinggal jalanin ini
+source venv/bin/activate
+
+pip install mysql-connector-python
+pip install flask
