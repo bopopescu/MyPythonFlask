@@ -1,5 +1,8 @@
 https://docs.python-guide.org/dev/virtualenvs/
 
+pip install virtualenv
+virtualenv venv
+
 # mestinya tinggal jalanin ini
 source venv/bin/activate
 
