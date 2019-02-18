@@ -1,0 +1,1 @@
+from configs import dbdb = db.connect()cursor = db.cursor()sql = """INSERT INTO users(username, address)VALUES('wildananugrah01', 'Jl. Pejompongan')"""try:	cursor.execute(sql)	db.commit()except:	db.rollback()	db.close()

@@ -1,0 +1,1 @@
+import pymysqldef connect():	return pymysql.connect("localhost","pythonflask","password","pythondb")

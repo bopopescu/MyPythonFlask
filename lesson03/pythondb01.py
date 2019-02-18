@@ -1,0 +1,1 @@
+from configs import dbdb = db.connect()cursor = db.cursor()cursor.execute("SELECT * FROM users")data = cursor.fetchone()print(data)db.close()
